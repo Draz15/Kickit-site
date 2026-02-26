@@ -170,7 +170,7 @@ body .widt,section hr{
         }
     :-webkit-any(.head-line,.image-data) a{
         color: var(--primary-background);
-        font-size: .9rem;
+        font-size: 1rem;
         border-bottom: 2px solid var(--primary-background);
     }
     :-webkit-any(.head-line,.image-data) a:hover{letter-spacing: 2px;}
@@ -197,17 +197,17 @@ video,.over-lay{
     padding-left: 250px;
     }
 .main-content h2{
-    font: 2.5rem var(--main-font);
+    font: 3rem var(--main-font);
     text-shadow: 6px 7px 10px  #7b7a7a ;
 }
 .main-content h1{
-    font: normal 800 5.5rem/2.6 var(--second-font);
+    font: normal 800 6rem/2.6 var(--second-font);
     color:var(--primary-background);
 }
 .btn{
-    padding:  15px 20px;
-    border-radius: 30px;
-    font: normal 600 1.6em/1.2 var(--third-font) ;
+    padding:  16px 22px;
+    border-radius: 50px;
+    font: normal 600 1.9em/1.2 var(--third-font) ;
     color:#fff ;
     border: 1px solid transparent;
     background: var(--third-background);
@@ -289,12 +289,12 @@ video,.over-lay{
 .slide:nth-child(4){ animation-delay: 0.8s; }
 
 .scroll-slide{
-    font:normal 500 1.6rem/1 var(--main-font);
+    font:normal 500 2rem/1 var(--main-font);
     justify-self: start;
     height: 45%;
 }
 .image-slide{
-    height: 65%;
+    height: 75%;
     perspective: 1000px;
     perspective-origin:bottom ;
 } 
@@ -320,7 +320,7 @@ video,.over-lay{
 {transform: rotateY(0);}
 .slide-icons{
     width: 65%;
-    transform: translate(-62%,30%);
+    transform: translate(-60%,30%);
     visibility: hidden; 
     height: 12%;
     z-index: 20;
@@ -335,7 +335,7 @@ video,.over-lay{
 .slide:hover .slide-icons,.slide-icons:hover .slide-icons a{
     visibility: visible;
     opacity: 1;
-    transform: translate(-62%,-100%);
+    transform: translate(-60%,-100%);
 }
 .slide-icons a:hover{
     opacity: 1;
@@ -351,12 +351,12 @@ video,.over-lay{
 .slide:hover > p:first-of-type a{color: #0ad106;}
 .container-introduction{
     min-height: 65vh;
-    border-bottom: 3px solid #e7e6e7;
-    border-top: 3px solid #e7e6e6;
+    border-bottom: 2px solid #e7e6e7;
+    border-top: 2px solid #e7e6e6;
     background:radial-gradient(#13dc1a,#b4fab6,#fff);
 }
 .introduction{height: 100%;}
-.hov-black{font-size: 21px;}
+.hov-black{font-size: 1.5rem;}
 .hov-black:hover{
     color: #050505e0;
     transform: scale(1.1);
@@ -374,7 +374,7 @@ video,.over-lay{
 }
 .circle-details img{
     border-radius: 50%;
-    margin-left: 50px;
+    margin-left: 30px;
     object-fit: cover;
     box-shadow: 3px 3px 10px 3px #f1f1f1,-3px -3px 10px 3px #f1f1f1;
 }
@@ -438,16 +438,16 @@ video,.over-lay{
         text-align: center;
     }
 .up-down-container .up-down-icons{
-    height:50px ;
+    height:80px ;
     padding-right: 22%;
  }
-.up-down-slide .up-down-icons i{ font-size: 2.3rem;}
+.up-down-slide .up-down-icons i{ font-size: 3rem;}
 .up-down-icons i:first-of-type{transform: translateX(-150px);}
 .up-down-slide:hover .up-down-icons i:first-of-type{transform: translateX(45px)}
 .up-down-icons i:last-of-type,.top-three a{color: var(--fourth-background);}
 .up-down-slide:hover .up-down-icons i:last-of-type{transform: translateX(200px);}
 .up-down-slide p{
-    font-size: .9rem;
+    font-size: 1rem;
     margin-top: 15px;
     color: var(--text-color);
     }
@@ -480,7 +480,7 @@ video,.over-lay{
     padding-left: 10px;
 }
 .top-two a{
-    padding: .7rem .8rem ;
+    padding: .8rem 2rem ;
     background-color: var(--primary-background);
     color: #fff;
     }
@@ -492,15 +492,15 @@ video,.over-lay{
     font: normal 600 1.1rem var(--third-font);
 }
 .top-three a{
-    font-size: 1.4rem;
-    width: 40px;
-    height: 40px;
+    font-size: 1.5rem;
+    width: 45px;
+    height: 45px;
     text-align: center;
     border-radius: 50%;
     background-color: #fff;
 }
 .top-three a:hover{transform: translateY(-5px);}
-.top-three a i{line-height: 40px;}
+.top-three a i{line-height: 45px;}
 .middle-footer{height: 60%;}
 .middle-footer .footer-logo{
     justify-self: end ;
@@ -508,7 +508,9 @@ video,.over-lay{
 }
 .middle-footer .footer-list{
     height: 70%;
+    width: 75%;
     gap: 0 30px;
+    justify-content: space-between;
 }
 .middle-footer ul {height: 100%;}
 .middle-footer .footer-list ul .first{border-bottom: 1px solid var(--text-color);}
@@ -528,7 +530,7 @@ video,.over-lay{
     width: 40px;
     position: absolute;
     top: 33%;
-    right: 24.5%;
+    right: 26%;
     transform: translateX(0);
  }
  @keyframes fadeUp{
