@@ -402,7 +402,7 @@ video,.over-lay{
     gap: 0 5%;
     grid-template-rows: repeat(2,minmax(550px,660px));
 }
-.image-hov{height: 55%;}
+.image-hov{height: 60%;}
 .slide-content{
     height: 40%;
     margin-top: 5%;
@@ -505,9 +505,10 @@ video,.over-lay{
 .copy-footer{text-align: center;}
 .copy-footer p{
     height: 50px;
-    padding-top: 15px;
+    padding-top: 20px;
     font-size: .9rem;
 }
+.ball-effect{margin-left: -10px;}
 .copy-footer i{
     animation: ball 3s ease 0s infinite;
     width: 40px;
