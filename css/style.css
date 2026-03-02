@@ -262,7 +262,7 @@ video,.over-lay{
     height: 5px;
     width: 100%;
     background-color: var(--primary-background);
-    top: 235%;
+    top: 230%;
     left: 0;
 }
 .container-slides{height: 93vh;}
@@ -560,6 +560,7 @@ video,.over-lay{
     font: normal 600 1.8em/1.2 var(--third-font) ;
 }
 .element{margin: auto;}
+.section-two-head ul li:nth-child(4)::after{top: 250%;}
 .sub-title,.sub-title2,.introduction h2{
     text-align: center;
     font: normal 900 1.6rem/1 var(--third-font);
