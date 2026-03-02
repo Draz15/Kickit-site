@@ -52,6 +52,8 @@ body .widt,section hr{
     overflow: hidden;
     position: relative;
 }
+.primary-color{color: var(--primary-background);}
+.primary-bg{background-color: var(--primary-background);}
 .hide{overflow: hidden;}
 .redo:hover,.hov,.slide:hover .redo,.up-down-icons i:first-of-type,.top-three a:hover,.scroll-slide:hover,.middle-footer ul a:hover,.copy-footer i{color: var(--primary-background);}
 .data-parent{
@@ -168,7 +170,6 @@ body .widt,section hr{
         padding-top: 6px;
         left: 0;
         font: normal 700 .7rem var(--third-font);
-        background-color: var(--primary-background);
         height: 30px;
     }
     .user:hover .sign{transform: translateY(-5px);}
@@ -178,7 +179,6 @@ body .widt,section hr{
         color: var(--secondary-background);
         }
     :-webkit-any(.head-line,.image-data) a{
-        color: var(--primary-background);
         font-size: 1rem;
         border-bottom: 2px solid var(--primary-background);
     }
@@ -200,10 +200,7 @@ video,.over-lay{
     font: 3rem var(--main-font);
     text-shadow: 6px 7px 10px  #7b7a7a ;
 }
-.main-content h1{
-    font: normal 800 6rem/2.6 var(--second-font);
-    color:var(--primary-background);
-}
+.main-content h1{font: normal 800 6rem/2.6 var(--second-font);}
 .btn{
     padding:  16px 22px;
     border-radius: 50px;
@@ -471,7 +468,6 @@ video,.over-lay{
 }
 .top-two a{
     padding: .8rem 2rem ;
-    background-color: var(--primary-background);
     color: #fff;
     font: normal 600 1.1rem var(--third-font);
     }
@@ -527,12 +523,11 @@ video,.over-lay{
      100%{-webkit-transform: scale(.5) rotate(0);}
  }
  @media (max-width:1000px){
-.data-parent{font-size: .3rem;}
 .data-parent .data{ height: 30px;}
 .data > a,.option,.icons a{
     margin-left: 4px;
     padding: 6px 8px;
-    font-size: .85rem;
+    font-size: .65rem;
 }
 .redo i,.top-footer,.top-two a,.footer-email input::placeholder{font-size: .9rem;}
 .logo img{width: 50px;height: 50px;}
@@ -583,7 +578,6 @@ video,.over-lay{
 .scroll-slide{display: none;}
 .container-news{
     min-height: 190vh;
-    background-color: #0ad106;
     padding-top: 10px;
 }
 .container-news .sub-title2,.introduction h2{color: #fff;}
@@ -599,7 +593,9 @@ video,.over-lay{
 .up-down-slide:hover .up-down-icons i:last-of-type{transform: translate(0px,-150px);}
  .footer-container{justify-content: space-evenly;}
 .top-footer{align-items: start;}
-.top-two{height: 40%; width: 45%;}
+.top-two{
+    height: 40%;
+    width: 45%;}
 .top-two a{padding: .5rem 1rem ;}
 .top-three a{
     width: 35px;
